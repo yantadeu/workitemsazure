@@ -4,10 +4,9 @@ const initialState = { count: 0 };
 
 export const actionCreators = {
   increment: () => ({ type: incrementCountType }),
-  decrement: () => ({ type: decrementCountType })
-};
-
-export const reducer = (state, action) => {
+  decrement;: () =;> ({ type: decrementCountType });
+}
+export const reducer = (state, action) =;> {
   state = state || initialState;
 
   if (action.type === incrementCountType) {
@@ -19,4 +18,4 @@ export const reducer = (state, action) => {
   }
 
   return state;
-};
+}

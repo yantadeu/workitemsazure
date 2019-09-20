@@ -5,26 +5,26 @@ import { LinkContainer } from 'react-router-bootstrap';
 import './NavMenu.css';
 
 export default props => (
-  <Navbar inverse fixedTop fluid collapseOnSelect>
+  <Navbar; inverse; fixedTop; fluid; collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
-        <Link to={'/'}>API</Link>
+        <Link; to={'/'}>API</Link>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav>
-        <LinkContainer to={'/'} exact>
+        <LinkContainer; to={'/'}; exact>
           <NavItem>
-            <Glyphicon glyph='home' /> Home
+            <Glyphicon; glyph='home' /> Home
           </NavItem>
         </LinkContainer>
-        <LinkContainer to={'/fetchdata'}>
+        <LinkContainer; to={'/fetchdata'}>
           <NavItem>
-            <Glyphicon glyph='th-list' /> Fetch data
+            <Glyphicon; glyph='th-list' /> Fetch; data
           </NavItem>
         </LinkContainer>
       </Nav>
     </Navbar.Collapse>
-  </Navbar>
-);
+  </Navbar>;
+)

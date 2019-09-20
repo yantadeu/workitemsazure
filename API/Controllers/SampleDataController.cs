@@ -1,10 +1,7 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using API.DataAccess;
 using API.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
@@ -14,8 +11,8 @@ namespace API.Controllers
         [HttpGet("[action]")]
         public WorkItem[] WeatherForecasts(int offset, int limit)
         {
-            DataBase db = new DataBase();
-            List<WorkItem> result = db.Select(offset, limit);
+            var db = new DataBase();
+            var result = db.Select(offset, limit);
             return result.ToArray<WorkItem>();
         }
     }
