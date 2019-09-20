@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpiderAzure", "SpiderAzure.csproj", "{88C78120-9373-4944-9AAB-F96AADC97575}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "..\API\API.csproj", "{90A03D6D-CB8E-409B-9AC4-799C53CA2666}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88C78120-9373-4944-9AAB-F96AADC97575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C78120-9373-4944-9AAB-F96AADC97575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C78120-9373-4944-9AAB-F96AADC97575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C78120-9373-4944-9AAB-F96AADC97575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A03D6D-CB8E-409B-9AC4-799C53CA2666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A03D6D-CB8E-409B-9AC4-799C53CA2666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A03D6D-CB8E-409B-9AC4-799C53CA2666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A03D6D-CB8E-409B-9AC4-799C53CA2666}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D09D477-42C4-4F5B-864F-E452484AE555}
+	EndGlobalSection
+EndGlobal
