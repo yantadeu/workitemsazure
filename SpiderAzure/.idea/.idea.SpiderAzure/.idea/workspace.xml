@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="190f20a7-6189-41a1-8715-25f929087f68" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/../API/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../API/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpiderAzure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpiderAzure/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ConnectDB.cs" root0="FORCE_HIGHLIGHTING" />
@@ -46,6 +48,8 @@
         <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/../API/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/../README.md" />
+        <option value="$PROJECT_DIR$/../API/appsettings.json" />
+        <option value="$PROJECT_DIR$/../API/appsettings.Development.json" />
       </list>
     </option>
   </component>
@@ -136,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568975751243</updated>
-      <workItem from="1568975755338" duration="7055000" />
+      <workItem from="1568975755338" duration="7628000" />
     </task>
     <servers />
   </component>

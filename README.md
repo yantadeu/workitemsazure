@@ -13,8 +13,8 @@
  
     * "DB_HOST": "localhost", // nome do host sql server
     * "DB_NAME": "AzureIntegration", // nome do banco de dados
-    * "DB_USER": "sa", // nome do banco de dados
-    * "DB_PASSWORD": "Password", // nome do banco de dados
+    * "DB_USER": "sa", // nome do usuário banco de dados
+    * "DB_PASSWORD": "Password1", // senha do banco de dados
     * "URI_AZURE": "https://dev.azure.com/yantadeu1", //url do azure
     * "PERSONAL_ACCESS_TOKEN": "xxw4hdxel7admik2jqfqjbmqjcuxhdwnjcdzbqploynlrwyv3gmq", //token gerado pelo azure para acesso
     * "PROJECT": "AzureInterfaceEngenhos" //nome do projeto do azure
@@ -29,6 +29,8 @@
 
     - "DB_HOST": "localhost", // nome do host sql server
     - "DB_NAME": "AzureIntegration", // nome do banco de dados
+    - "DB_USER": "sa", // nome do usuário banco de dados
+    - "DB_PASSWORD": "Password", // senha do banco de dados
 
 ``` 
 Ao executar o projeto API, o navegador é aberto com a lista de WorkItens. Podendo  filtrar por tipo (digitando o tipo do work item) e ordenar por data de criação, além de paginação por meio de botões. A interface é responsiva.```
