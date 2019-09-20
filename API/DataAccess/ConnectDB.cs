@@ -7,22 +7,30 @@ namespace API.DataAccess
 {
     public class DataBase
     {
-        private readonly string _database_name;
-        private readonly string _server_name;
+        private readonly string _databaseName;
+        private readonly string _serverName;
+        private readonly string _userName;
+        private readonly string _password;
 
         public DataBase()
         {
-            _server_name = Environment.GetEnvironmentVariable("DB_SERVER"); //"localhost";
-            _database_name = Environment.GetEnvironmentVariable("DB_NAME"); //"AzureIntegration";
+            _serverName = Environment.GetEnvironmentVariable("DB_SERVER"); //"localhost";
+            _databaseName = Environment.GetEnvironmentVariable("DB_NAME"); //"AzureIntegration";
+            _userName = Environment.GetEnvironmentVariable("DB_USER"); //"sa";
+            _password = Environment.GetEnvironmentVariable("DB_PASSWORD"); //"Password1";
         }
 
         public SqlConnection Connect()
         {
             var connection = new SqlConnection();
             connection.ConnectionString =
-                "Server=" + _server_name + "; Database=" + _database_name + ";Trusted_Connection=true";
+                "Server=" + _serverName + 
+                "; Database =" + _databaseName + 
+                "; User ID =" + _userName + 
+                "; Password =" + _password + 
+                ";Trusted_Connection=true";
             connection.Open();
-            Console.WriteLine("Banco connectado");
+            Console.WriteLine("Banco conectado");
             return connection;
         }
 

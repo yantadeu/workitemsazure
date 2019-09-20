@@ -5,26 +5,34 @@ namespace SpiderAzure
 {
     public class DataBase
     {
-        private readonly string _database_name;
-        private readonly string _server_name;
+        private readonly string _databaseName;
+        private readonly string _serverName;
+        private readonly string _userName;
+        private readonly string _password;
 
-        public DataBase(string host, string db)
+        public DataBase(string host, string db, string user, string password)
         {
-            _server_name = host;
-            _database_name = db;
+            _serverName = host;
+            _databaseName = db;
+            _userName = user;
+            _password = password;
         }
 
         public SqlConnection Connect()
         {
             var connection = new SqlConnection();
             connection.ConnectionString =
-                "Server=" + _server_name + "; Database=" + _database_name + ";Trusted_Connection=true";
+                "Server=" + _serverName + 
+                "; Database =" + _databaseName + 
+                "; User ID =" + _userName + 
+                "; Password =" + _password + 
+                ";Trusted_Connection=true";
             connection.Open();
-            Console.WriteLine("Banco connectado");
+            Console.WriteLine("Banco conectado");
             return connection;
         }
 
-        public void Save(int? id, object type, object title, object created_at)
+        public void Save(int? id, object type, object title, object createdAt)
         {
             var connect = Connect();
             var sql = "INSERT INTO [Table] VALUES(@Id, @type, @title, @created_at)";
@@ -35,7 +43,7 @@ namespace SpiderAzure
                 comando.Parameters.Add(new SqlParameter("@Id", id.ToString()));
                 comando.Parameters.Add(new SqlParameter("@type", type.ToString()));
                 comando.Parameters.Add(new SqlParameter("@title", title.ToString()));
-                comando.Parameters.Add(new SqlParameter("@created_at", created_at.ToString()));
+                comando.Parameters.Add(new SqlParameter("@created_at", createdAt.ToString()));
                 //abre a conexao
                 //conn.Open();
                 //executa o comando com os parametros que foram adicionados acima

@@ -6,8 +6,13 @@
 
 * As informações de acesso a API do Azure e do banco de dados estão localizadas no arquivo appsettings.json:
 
+    - `Altere as configurações do banco conforme necessário para testes`
+    - `Execute o arquivo SpiderAzure/DataBase/dbo.Table.sql para criar a tabela de workitems`
+    
     * "DB_HOST": "localhost", // nome do host sql server
     * "DB_NAME": "AzureIntegration", // nome do banco de dados
+    * "DB_USER": "sa", // nome do banco de dados
+    * "DB_PASSWORD": "Password", // nome do banco de dados
     * "URI_AZURE": "https://dev.azure.com/yantadeu1", //url do azure
     * "PERSONAL_ACCESS_TOKEN": "xxw4hdxel7admik2jqfqjbmqjcuxhdwnjcdzbqploynlrwyv3gmq", //token gerado pelo azure para acesso
     * "PROJECT": "AzureInterfaceEngenhos" //nome do projeto do azure
