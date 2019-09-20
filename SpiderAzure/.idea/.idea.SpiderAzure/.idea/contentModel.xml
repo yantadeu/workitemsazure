@@ -76,6 +76,9 @@
       <e p="Properties" t="Include">
         <e p="launchSettings.json" t="Include" />
       </e>
+      <e p="Resources" t="Include">
+        <e p="img.jpeg" t="Include" />
+      </e>
       <e p="Startup.cs" t="Include" />
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
