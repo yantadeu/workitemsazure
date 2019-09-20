@@ -30,7 +30,7 @@
     - "DB_HOST": "localhost", // nome do host sql server
     - "DB_NAME": "AzureIntegration", // nome do banco de dados
     - "DB_USER": "sa", // nome do usuário banco de dados
-    - "DB_PASSWORD": "Password", // senha do banco de dados
+    - "DB_PASSWORD": "Password1", // senha do banco de dados
 
 ``` 
 Ao executar o projeto API, o navegador é aberto com a lista de WorkItens. Podendo  filtrar por tipo (digitando o tipo do work item) e ordenar por data de criação, além de paginação por meio de botões. A interface é responsiva.```

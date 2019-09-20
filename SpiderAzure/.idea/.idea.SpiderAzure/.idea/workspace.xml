@@ -5,6 +5,12 @@
       <change beforePath="$PROJECT_DIR$/../API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/../API/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../API/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpiderAzure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpiderAzure/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/SpiderAzure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/SpiderAzure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/SpiderAzure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/SpiderAzure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.2/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/SpiderAzure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/SpiderAzure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/SpiderAzure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.2/SpiderAzure.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +51,11 @@
         <option value="$PROJECT_DIR$/ConnectDB.cs" />
         <option value="$PROJECT_DIR$/../API/DataAccess/ConnectDB.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
-        <option value="$PROJECT_DIR$/appsettings.json" />
         <option value="$PROJECT_DIR$/../API/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/../README.md" />
         <option value="$PROJECT_DIR$/../API/appsettings.json" />
         <option value="$PROJECT_DIR$/../API/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/appsettings.json" />
       </list>
     </option>
   </component>
@@ -140,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568975751243</updated>
-      <workItem from="1568975755338" duration="7628000" />
+      <workItem from="1568975755338" duration="8204000" />
     </task>
     <servers />
   </component>
